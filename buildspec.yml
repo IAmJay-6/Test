@@ -15,5 +15,4 @@ phases:
       - echo build completed succesfully
 artifacts:
   files:
-    - 'target/Test-Application.jar'
-  discard-paths: yes
+    - '**/*'
