@@ -1,11 +1,6 @@
 version: 0.2
 
 phases:
-  install:
-    runtime-versions:
-      java: corretto11
-    commands:
-      - echo Nothing to do in the install phase
   build:
     commands:
       - echo Entered to build phase
