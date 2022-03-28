@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo Entered to build phase
+      - mvn clean package
+  post_build:
+    commands:
+      - echo build completed succesfully
+artifacts:
+  files:
+    - target/Test-Application.jar
+  discard-paths: yes
